@@ -37,7 +37,7 @@ class MainDomain {
         this.game.state.add("4", new Level(this, 2, 5, 100, 4, 1.0, 5, "5"));
         this.game.state.add("5", new Level(this, 4, 4, 100, 4, 0.7, 8, "6"));
         this.game.state.add("6", new Level(this, 4, 6, 100, 4, 0.7, 12, "7"));
-        this.game.state.add("7", new Level(this, 5, 5, 100, 2, 0.5, 16, "8"));
+        this.game.state.add("7", new Level(this, 5, 6, 100, 2, 0.5, 15, "8"));
         this.game.state.add("8", new Level(this, 5, 8, 100, 2, 0.5, 20, "1"));
 
         this.game.state.start("1");
